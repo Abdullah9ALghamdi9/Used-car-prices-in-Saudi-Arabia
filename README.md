@@ -22,16 +22,48 @@ Users select a vehicle's specifications, and the model predicts its estimated pr
 
 ### Run Locally
 
-Install the required packages:
+**Requirements:** Python 3.11 or 3.12 and the project files.
+
+**macOS / Linux**
+
+Create a virtual environment:
 
 ```bash
-pip install fastapi "uvicorn[standard]" catboost pandas numpy scikit-learn
+python3 -m venv .venv
+```
+
+Install dependencies:
+
+```bash
+.venv/bin/python -m pip install fastapi "uvicorn[standard]" catboost pandas numpy scikit-learn
 ```
 
 Run the application:
 
 ```bash
-python -m uvicorn app:app --reload
+.venv/bin/python -m uvicorn app:app --reload
 ```
 
-Open `http://127.0.0.1:8000/ui/` in your browser.
+**Windows (PowerShell)**
+
+Create a virtual environment:
+
+```powershell
+py -3.11 -m venv .venv
+```
+
+Install dependencies:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install fastapi "uvicorn[standard]" catboost pandas numpy scikit-learn
+```
+
+Run the application:
+
+```powershell
+.\.venv\Scripts\python.exe -m uvicorn app:app --reload
+```
+
+**Open the application:**
+
+http://127.0.0.1:8000/ui/

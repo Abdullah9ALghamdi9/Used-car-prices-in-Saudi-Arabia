@@ -69,5 +69,5 @@ Run the application:
 
 http://127.0.0.1:8000/ui/
 
-<img width="1440" height="900" alt="‏لقطة الشاشة ١٤٤٨-٠٤-٣٠ في ١٠ ٤٥ ١٩ م" src="https://github.com/user-attachments/assets/9468bcf7-751e-4293-904a-0e6254993dd1" />
 <img width="1440" height="900" alt="‏لقطة الشاشة ١٤٤٨-٠٤-٣٠ في ١٠ ٤٣ ٣٧ م" src="https://github.com/user-attachments/assets/c687965b-6c02-4b4b-b91e-0674e8736c85" />
+<img width="1440" height="900" alt="‏لقطة الشاشة ١٤٤٨-٠٤-٣٠ في ١٠ ٤٥ ١٩ م" src="https://github.com/user-attachments/assets/9468bcf7-751e-4293-904a-0e6254993dd1" />
